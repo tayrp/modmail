@@ -5,7 +5,7 @@ easily.
 
 # How do I set up ModMail?
 
-Simply run =setup in your server.
+Simply run {ctx.prefix}setup in your server.
 
 # How do I use ModMail to contact staff?
 
@@ -23,20 +23,20 @@ Please check the following before asking for help.
 
 \- You are using the correct prefix. Use @ModMail prefix to check the prefix.
 
-\- The command you are using is valid. Check using =help \<command\>.
+\- The command you are using is valid. Check using {ctx.prefix}help \<command\>.
 
 \- The bot is online. Discord might be having issues, or the bot might be restarting.
 
 # The bot says that a category is not found, what should I do?
 
 If you are a server admin, this is telling you that the bot is not set up properly. If you have
-previously used =setup, you might have deleted the category. Either use =category \[name\] to create
-the category or =setup to set up everything again.
+previously used {ctx.prefix}setup, you might have deleted the category. Either use {ctx.prefix}category \[name\] to create
+the category or {ctx.prefix}setup to set up everything again.
 
 # How do I change the server I want to send the message to?
 
 Simply react with 🔁 on the confirmation message and you will be asked to choose. If you have
-confirmation message disabled, use =new \<message\> instead. There is also a shortcut to that: =send
+confirmation message disabled, use =new \<message\> instead. There is also a shortcut to that: {ctx.prefix}send
 \<server ID\> \<message\>.
 
 # Why is the custom emote I sent not working?
@@ -47,11 +47,11 @@ use it.
 # Why is the ModMail log not working?
 
 This is most likely due to a lack of permission. If it still does not work with full permissions,
-you can try deleting the channel and run =logging to enable it again.
+you can try deleting the channel and run {ctx.prefix}logging to enable it again.
 
 # How do I change the prefix of the bot?
 
-Use the command =prefix \<new prefix\>.
+Use the command {ctx.prefix}prefix \<new prefix\>.
 
 # Can I rename the ModMail channel?
 
