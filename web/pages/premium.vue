@@ -131,7 +131,7 @@ export default {
             </p>
             <form id="premium-form" action="https://www.paypal.com/cgi-bin/webscr" method="post"
                 target="_top" novalidate>
-              <input type="hidden" name="business" value="redfreebird41@gmail.com">
+              <input type="hidden" name="business" value="valerie@valerie.lol">
               <input type="hidden" name="lc" value="en_US">
               <input type="hidden" name="cmd" value="_xclick">
               <input type="hidden" name="amount" value="${price}.00">
@@ -139,9 +139,9 @@ export default {
               <input type="hidden" name="no_shipping" value="1">
               <input type="hidden" name="currency_code" value="USD">
               <input type="hidden" name="custom" value="${user.id}">
-              <input type="hidden" name="notify_url" value="https://modmail.xyz/api/webhooks/payment">
-              <input type="hidden" name="return" value="https://modmail.xyz/success">
-              <input type="hidden" name="cancel_return" value="https://modmail.xyz/premium">
+              <input type="hidden" name="notify_url" value="https://catfax.valerie.lol/api/webhooks/payment">
+              <input type="hidden" name="return" value="https://catfax.valerie.lol/success">
+              <input type="hidden" name="cancel_return" value="https://catfax.valerie.lol/premium">
             </form>
           `,
         },
