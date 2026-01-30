@@ -52,6 +52,6 @@ practices or for other operational, legal or regulatory reasons.
 # Contact Us
 
 For more information about our privacy practices, if you have any questions, or if you would like to
-make a complaint, please contact us through sending email to hi@modmail.xyz.
+make a complaint, please contact us through sending email to contact@valerie.lol.
 
 _Last updated: 29 October 2022_

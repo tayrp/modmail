@@ -113,9 +113,9 @@ services:
       - LARGE_THRESHOLD=50
       - STATUS=online
       - ACTIVITY_TYPE=0
-      - ACTIVITY_NAME=DM to Contact Staff | =help
-      - LOG_CHANNEL=0
-      - LOG_GUILD_CHANNEL=0
+      - ACTIVITY_NAME=DM to Contact Staff | ${DEFAULT_PREFIX}help
+      - LOG_CHANNEL=1466620327680409651
+      - LOG_GUILD_CHANNEL=1466620327680409651
       - STATE_ENABLED=true
       - STATE_MEMBER=false
       - STATE_MEMBER_TTL=60000
