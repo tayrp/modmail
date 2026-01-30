@@ -1,6 +1,6 @@
 # MystixMew
 
-Developer, Administrator of CatFax
+Developer, Administrator of cat℻
 
 - Image: https://blog.valerie.lol/_astro/avatar.Ctgk3XP5_Z2pgu8v.webp
 - Website: https://valerie.lol

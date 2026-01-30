@@ -13,7 +13,7 @@ Message the bot what you would like to send.
 
 # Where do I get ModMail premium?
 
-Please go to https://modmail.xyz/premium.
+Please go to https://catfax.valerie.lol/premium.
 
 # Why is the bot not responding?
 
@@ -72,7 +72,7 @@ any models with the data. Furthermore, all AI features can be disabled.
 
 # Is the bot open source?
 
-Yes! See https://github.com/chamburr/modmail. However, we will not provide any help for
+Yes! See https://github.com/tayrp/modmail/tree/catfax. However, we will not provide any help for
 self-hosting.
 
 # None of these helped me!

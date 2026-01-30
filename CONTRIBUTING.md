@@ -81,7 +81,7 @@ commit message is then used for explaining the change.
 ## Questions
 
 Have a question? Please avoid opening issues for general questions. Instead, it is much better to
-ask your question on our [Discord server](https://discord.gg/wjWJwJB).
+ask your question on our [Discord server](https://discord.gg/Edmk3Fxncx).
 
 ## Code of Conduct
 

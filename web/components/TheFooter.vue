@@ -39,7 +39,7 @@
                 <NuxtLink class="footer-link d-block" to="/about">About Us</NuxtLink>
                 <NuxtLink class="footer-link d-block" to="/terms">Terms</NuxtLink>
                 <NuxtLink class="footer-link d-block" to="/privacy">Privacy</NuxtLink>
-                <a class="footer-link d-block" target="_blank" href="mailto:hi@modmail.xyz">
+                <a class="footer-link d-block" target="_blank" href="mailto:contact@valerie.lol">
                   Contact
                 </a>
               </div>

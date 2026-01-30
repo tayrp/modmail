@@ -10,7 +10,7 @@ export default {
     title: 'Support',
   },
   mounted() {
-    window.location.href = 'https://discord.gg/wjWJwJB'
+    window.location.href = 'https://discord.gg/Edmk3Fxncx'
   },
 }
 </script>

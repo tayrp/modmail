@@ -66,7 +66,7 @@ class General(commands.Cog):
         page.set_thumbnail(bot_user.avatar_url)
         page.set_footer("Use the reactions to flip pages.")
         page.add_field("Invite", f"{self.bot.config.BASE_URI}/invite", False)
-        page.add_field("Support Server", "https://discord.gg/wjWJwJB", False)
+        page.add_field("Support Server", "https://discord.gg/Edmk3Fxncx", False)
         all_pages.append(page)
 
         for cog_name in self.bot.cogs:
@@ -165,7 +165,7 @@ class General(commands.Cog):
         description="Get a link to my support server.", usage="support", aliases=["server"]
     )
     async def support(self, ctx):
-        await ctx.send(Embed("Support Server", "https://discord.gg/wjWJwJB"))
+        await ctx.send(Embed("Support Server", "https://discord.gg/Edmk3Fxncx"))
 
     @commands.command(description="Get the link to ModMail's website.", usage="website")
     async def website(self, ctx):

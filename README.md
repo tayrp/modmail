@@ -57,4 +57,4 @@ Your self-hosted bot should be up now. Congratulations!
 
 This project is licensed under [GNU Affero General Public License v3.0](LICENSE).
 
-[discord]: https://discord.gg/wjWJwJB
+[discord]: https://discord.gg/Edmk3Fxncx
