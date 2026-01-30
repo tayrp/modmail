@@ -73,9 +73,9 @@ services:
       - POSTGRES_PASSWORD=
       - POSTGRES_HOST=postgres
       - POSTGRES_PORT=5432
-      - REDIS_HOST=${REDIS_HOST}
+      - REDIS_HOST=redis
       - REDIS_PORT=6379
-      - REDIS_PASSWORD=${REDIS_PASSWORD}
+      - REDIS_PASSWORD=
       - RABBIT_USERNAME=guest
       - RABBIT_PASSWORD=guest
       - RABBIT_HOST=rabbitmq
