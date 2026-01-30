@@ -1,3 +1,11 @@
+# MystixMew
+
+Developer, Administrator of CatFax
+
+- Image: https://blog.valerie.lol/_astro/avatar.Ctgk3XP5_Z2pgu8v.webp
+- Website: https://valerie.lol
+- GitHub: https://github.com/tayrp
+
 # chamburr
 
 Developer, Administrator
