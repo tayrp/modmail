@@ -8,7 +8,7 @@ services:
     image: ghcr.io/chamburr/modmail-web:latest
     restart: unless-stopped
     ports:
-      - '8000:6000'
+      - '8100:6000'
     environment:
       - BASE_URI=${BASE_URI}
       - HTTP_HOST=0.0.0.0
@@ -28,12 +28,12 @@ services:
       - BOT_TOKEN=${BOT_TOKEN}
       - BOT_CLIENT_ID=${BOT_CLIENT_ID}
       - BOT_CLIENT_SECRET=${BOT_CLIENT_SECRET}
-      - MAIN_SERVER=0
-      - PREMIUM1_ROLE=0
-      - PREMIUM3_ROLE=0
-      - PREMIUM5_ROLE=0
-      - PAYMENT_CHANNEL=0
-      - PATRON_CHANNEL=0
+      - MAIN_SERVER=1171313789250043934
+      - PREMIUM1_ROLE=1425539801742053543
+      - PREMIUM3_ROLE=1428104941985337384
+      - PREMIUM5_ROLE=1381303000924029132
+      - PAYMENT_CHANNEL=1466620327680409651
+      - PATRON_CHANNEL=1466620327680409651
       - REDIS_HOST=redis
       - REDIS_PORT=6379
       - REDIS_PASSWORD=
@@ -41,7 +41,7 @@ services:
       - API_HOST=0.0.0.0
       - API_PORT=6001
       - API_WORKERS=1
-      - API_SECRET=supersecret
+      - API_SECRET=${API_SECRET}
       - BOT_API_HOST=bot
       - BOT_API_PORT=6002
     depends_on:
@@ -62,33 +62,33 @@ services:
       - DEFAULT_PREFIX=${DEFAULT_PREFIX}
       - DEFAULT_SERVER=${DEFAULT_SERVER}
       - BOT_CLUSTERS=1
-      - MAIN_SERVER=
+      - MAIN_SERVER=1171313789250043934
       - OWNER_USERS=${OWNER_USERS}
       - ADMIN_USERS=${ADMIN_USERS}
-      - PREMIUM1_ROLE=0
-      - PREMIUM3_ROLE=0
-      - PREMIUM5_ROLE=0
+      - PREMIUM1_ROLE=1425539801742053543
+      - PREMIUM3_ROLE=1428104941985337384
+      - PREMIUM5_ROLE=1381303000924029132
       - POSTGRES_DATABASE=modmail
       - POSTGRES_USERNAME=postgres
       - POSTGRES_PASSWORD=
       - POSTGRES_HOST=postgres
       - POSTGRES_PORT=5432
-      - REDIS_HOST=redis
+      - REDIS_HOST=${REDIS_HOST}
       - REDIS_PORT=6379
-      - REDIS_PASSWORD=
+      - REDIS_PASSWORD=${REDIS_PASSWORD}
       - RABBIT_USERNAME=guest
       - RABBIT_PASSWORD=guest
-      - RABBIT_HOST=rabbitmq
+      - RABBIT_HOST=${RABBIT_HOST}
       - RABBIT_PORT=5672
       - BASE_URI=${BASE_URI}
       - BOT_API_HOST=0.0.0.0
       - BOT_API_PORT=6002
       - GROQ_KEY=${GROQ_KEY}
       - GROQ_MODEL=${GROQ_MODEL}
-      - TOPGG_TOKEN=
-      - DBOTS_TOKEN=
-      - DBL_TOKEN=
-      - BOD_TOKEN=
+      - TOPGG_TOKEN=${TOPGG_TOKEN}
+      - DBOTS_TOKEN=${DBOTS_TOKEN}
+      - DBL_TOKEN=${DBL_TOKEN}
+      - BOD_TOKEN=${BOD_TOKEN}
     depends_on:
       - dispatch
       - postgres
