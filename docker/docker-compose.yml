@@ -78,7 +78,7 @@ services:
       - REDIS_PASSWORD=${REDIS_PASSWORD}
       - RABBIT_USERNAME=guest
       - RABBIT_PASSWORD=guest
-      - RABBIT_HOST=${RABBIT_HOST}
+      - RABBIT_HOST=rabbitmq
       - RABBIT_PORT=5672
       - BASE_URI=${BASE_URI}
       - BOT_API_HOST=0.0.0.0
